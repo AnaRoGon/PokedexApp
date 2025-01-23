@@ -41,9 +41,10 @@ El proyecto se cargará automáticamente y podrás ejecutarlo en el IDE.
 
 # Conclusiones del desarrollador.
 
-Durante el desarrollo de esta tarea ha sido un reto ser capaz de manejar las llamadas a la API y 
-separar la lógica de la aplicación de manera modular para poder separar las funciones de cada
-clase y evitar que los datos se interbloqueasen. 
+Durante el desarrollo de esta tarea ha sido un reto ser capaz de manejar las llamadas a la API
+teniendo en cuenta las anidaciones de la estructuras de datos de la API.
+Además de separar la lógica de la aplicación para poder gestionar correctamente las funciones de cada
+clase al obtener los datos anidados y evitar que se interbloqueasen.
 
 Ha sido muy interesante conocer las posibilidades de Firebase y Retrofit. Las aplicaciones están estrechamente
 ligadas al acceso a los datos desde la nube o desde internet y aprender su funcionamiento ha sido realmente interesante y motivador.

@@ -100,7 +100,6 @@ public class FragmentPokedex extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         //Variables
         super.onViewCreated(view, savedInstanceState);
-        Pokemon pokemon;
         //Inicializamos el RecyclerView y el adaptador
         pokemonList = new ArrayList<>();
         pokemonListAdapter = new PokemonListAdapter(pokemonList, this);

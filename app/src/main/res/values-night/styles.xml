@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo personalizado para BottomNavigationView -->
+    <style name="CustomBottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <!-- Colores para los íconos según su estado -->
+        <item name="itemIconTint">@color/selector_icon_color_night</item>
+        <!-- Colores para el texto según su estado -->
+        <item name="itemTextColor">@color/selector_text_color_night</item>
+        <!-- Color de fondo del BottomNavigationView -->
+        <item name="android:background">@color/PokemonDarkShadowCian</item>
+    </style>
+
+    <!-- Estilo para la pantalla de Login-->
+    <style name="AuthUI_CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:windowBackground">@color/DirtyWhite</item>
+        <item name="colorPrimary">@color/PokemonDirtyYellow</item>
+        <item name="colorPrimaryVariant">@color/PokemonLightYellow</item>
+        <item name="colorOnPrimary">@color/PokemonDarkShadowCian</item>
+
+        <!-- Personalización de los botones -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <!-- Estilo para títulos -->
+    <style name="CustomTitleStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">@font/daydream</item>
+        <item name="android:textColor">@color/PokemonDirtyYellow</item>
+    </style>
+
+    <!-- Estilo para los textos -->
+    <style name="CustomTextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/pokemonclassic</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <!--Estilo para textos en descripcion -->
+    <style name="CustomTextViewDescriptionStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">17dp</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <!--Modificamos el color para la toolbar-->
+    <style name="CustomActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/PokemonDarkShadowCian</item>
+        <item name="android:titleTextStyle">@style/CustomTextViewStyle</item>
+    </style>
+</resources>

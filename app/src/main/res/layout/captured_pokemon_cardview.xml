@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Este es el layout que organiza cómo se verá cada elemento del RecyclerView de Pokemon capturados -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Seccion  de datos de pokemon a vincular -->
+    <data>
+
+        <variable
+            name="character"
+            type="com.example.rodriguezgonzalez.pmdm03.classes.CapturedPokemon" />
+    </data>
+
+    <!--Cardview para encapsular el contenido del RecyclerView de Pokémon capturados -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/captured_pokemon_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/DirtyWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="20dp">
+            <!-- Imagen del pokemon -->
+            <ImageView
+                android:id="@+id/captured_pokemon_imgview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="bottom"
+                android:padding="4dp"
+                android:src="@drawable/game" />
+
+            <!-- Datos del pokemon -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <!-- Nombre del pokemon -->
+                <TextView
+                    android:id="@+id/captured_pokemon_name"
+                    style="@style/CustomTextViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:text="Nombre_Pokemon" />
+                <!-- Tipos del Pokémon -->
+                <TextView
+                    android:id="@+id/captured_pokemon_types"
+                    style="@style/CustomTextViewDescriptionStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Types_Pokemon" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

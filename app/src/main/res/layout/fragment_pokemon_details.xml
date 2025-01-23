@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout para el fragmento que muestra los detalles de un Pokémon -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpixel"
+    tools:context=".fragments.PokemonDetailsFragment">
+
+    <!-- ImageView que muestra una imagen del Pokémon elegido -->
+    <ImageView
+        android:id="@+id/pokemon_details_imageView"
+        android:layout_width="300dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <!-- CardView que encapsula la información detallada del personaje -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pokemon_details_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/DirtyWhite"
+        app:contentPadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemon_details_imageView">
+
+        <!-- Contenedor para los TextViews en un LinearLayout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/DirtyWhite"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- TextView para el Nombre -->
+            <TextView
+                android:id="@+id/pokemon_details_textViewName"
+                style="@style/CustomTitleStyle"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="Nombre_Pokemon" />
+
+            <!-- TextView para el Índice en la pkdx -->
+            <TextView
+                android:id="@+id/pokemon_details_textViewOrder"
+                style="@style/CustomTextViewDescriptionStyle"
+                android:layout_width="345dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Indice_pokedex" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <!-- TextView para el peso -->
+                <TextView
+                    android:id="@+id/pokemon_details_textViewWeight"
+                    style="@style/CustomTextViewDescriptionStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Peso" />
+
+                <!-- TextView para la altura -->
+                <TextView
+                    android:id="@+id/pokemon_details_textViewHeight"
+                    style="@style/CustomTextViewDescriptionStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Altura" />
+            </LinearLayout>
+
+            <!-- TextView para tipos -->
+            <TextView
+                android:id="@+id/pokemon_details_textViewTypes"
+                style="@style/CustomTextViewDescriptionStyle"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Tipo" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

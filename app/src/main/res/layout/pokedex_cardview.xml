@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Este es el layout que organiza cómo se verá cada elemento del RecyclerView de la Pokédex -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Seccion  de datos de pokemon a vincular -->
+    <data>
+
+        <variable
+            name="character"
+            type="com.example.rodriguezgonzalez.pmdm03.classes.Pokemon" />
+    </data>
+
+    <!-- Cardview para encapsular el contenido del recyclerview de pokedex -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pokemon_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <!-- Imagen del pokemon -->
+            <ImageView
+                android:id="@+id/pokemon_imgview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:src="@drawable/pkchu_con" />
+
+            <!-- Nombre del pokemon -->
+            <TextView
+                android:id="@+id/pokemon_name"
+                style="@style/CustomTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:text="Nombre Pokemon" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <!--Selección de idioma por defecto -->
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/reply_entries"
+        android:entryValues="@array/reply_values"
+        android:key="preferenceLanguage"
+        android:title="@string/language"
+        app:icon="@android:drawable/ic_menu_sort_alphabetically" />
+
+    <!-- Switch para eliminar pokemons -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="releasePokemon"
+        android:title="@string/release_pokemon"
+        app:icon="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <!-- About con la información de la versión y desarrolador -->
+    <Preference
+        android:key="about"
+        android:summary="@string/developer_information"
+        android:title="@string/about"
+        app:icon="@android:drawable/ic_menu_info_details" />
+
+    <!-- Botón para cerrar sesión -->
+    <Preference
+        android:key="logout"
+        android:title="@string/log_out"
+        app:icon="@android:drawable/ic_lock_power_off" />
+
+</PreferenceScreen>

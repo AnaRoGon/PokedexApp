@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout para el menú de navegación inferior -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentCapturedPokemon"
+        android:icon="@drawable/game"
+        android:title="@string/Captured_pkmn_menu" />
+
+    <item
+        android:id="@+id/fragmentPokedex"
+        android:icon="@drawable/pkdx"
+        android:title="@string/pkdx" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings"
+        android:title="@string/sttngs" />
+
+</menu>

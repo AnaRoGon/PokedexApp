@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">pmdm03</string>
+    <!--Aquí es donde quedan almacenados nuestros textos de la app para el lenguaje en inglés-->
+    <string name="language">Language</string>
+    <string name="release_pokemon">Release Pokemon</string>
+    <string name="developer_information">Information about the developer and the version</string>
+    <string name="log_out">Log out</string>
+    <string name="release_pokemon_option">¿Are you sure you want to release this Pokemon?</string>
+    <string name="yes">Yes</string>
+    <string name="pokemon_removed_from_firestore">"Pokemon removed from Firestore: "</string>
+    <string name="error_deleting_the_pokemon">Error deleting the Pokemon</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_reading_the_document">"Error reading the document: "</string>
+    <string name="captured_pokemon">Captured Pokemon</string>
+    <string name="error_retrieving_the_data">Error retrieving the data</string>
+    <string name="error_in_the_api_call">Error in the API call</string>
+    <string name="pokedex">Pokedex</string>
+    <string name="error_reading_the_database">"Error reading the database: "</string>
+    <string name="captured">" captured!"</string>
+    <string name="excl">¡</string>
+    <string name="error_capturing_the_pokemon">Error capturing the Pokemon</string>
+    <string name="connection_error_capturing_the_pokemon">Connection error while capturing the Pokemon</string>
+    <string name="pokemon_saved_to_the_database">Pokemon saved to the database</string>
+    <string name="reverse_exc">!</string>
+    <string name="saved_with_id">"¡Pokemon saved with ID: "</string>
+    <string name="error_saving_pok">Error saving Pokémon to Firebase</string>
+    <string name="error_saving_to_the_database">Error saving Pokémon to the database</string>
+    <string name="pokemon_details">Pokemon Details</string>
+    <string name="order_in_the_pokedex">"Order in the Pokedex: "</string>
+    <string name="cm">" cm"</string>
+    <string name="kg">" kg"</string>
+    <string name="comma">", "</string>
+    <string name="is_type">"This Pokemon is of type: "</string>
+    <string name="settings">Settings</string>
+    <string name="app_info_autor_version">Application developed by Ana Rodríguez González. Version 1.0.</string>
+    <string name="ok">OK</string>
+    <string name="about_app">About the app</string>
+    <string name="Captured_pkmn_menu">Captured Pokemon</string>
+    <string name="pkdx">Pokedex</string>
+    <string name="sttngs">Settings</string>
+    <string name="about">About</string>
+    <string name="sign_in_declined">It was not possible to log in.</string>
+
+    <!--Tipos de Pokémon en Inglés-->
+    <string name="type_normal">Normal</string>
+    <string name="type_grass">Grass</string>
+    <string name="type_fire">Fire</string>
+    <string name="type_water">Water</string>
+    <string name="type_electric">Electric</string>
+    <string name="type_ice">Ice</string>
+    <string name="type_fighting">Fighting</string>
+    <string name="type_poison">Poison</string>
+    <string name="type_ground">Ground</string>
+    <string name="type_flying">Flying</string>
+    <string name="type_psychic">Psychic</string>
+    <string name="type_bug">Bug</string>
+    <string name="type_rock">Rock</string>
+    <string name="type_ghost">Ghost</string>
+    <string name="type_dragon">Dragon</string>
+    <string name="type_dark">Dark</string>
+    <string name="type_steel">Steel</string>
+    <string name="type_fairy">Fairy</string>
+    <string name="type_stellar">Stellar</string>
+    <string name="type_unknown">Unknown</string>
+
+
+</resources>

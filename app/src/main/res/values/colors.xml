@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pantone para el modo día -->
+    <color name="DarkGrey">#1D1D1D</color>
+    <color name="DirtyWhite">#FDFAE8</color>
+    <color name="PokemonLightYellow">#FFF698</color>
+    <color name="PokemonDirtyYellow">#F5E500</color>
+    <color name="PokemonOrange">#F57C00</color>
+    <color name="PokemonLightOrange">#FADFBF</color>
+    <color name="PokemonDarkShadowCian">#0953A0</color>
+    <color name="PokemonLightCian">#D9FFFC</color>"
+    <color name="PokemonRed">#D50032</color>
+
+</resources>

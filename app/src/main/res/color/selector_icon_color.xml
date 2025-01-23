@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Selector para manejar el cambio de color de los iconos del BottomNavigationView -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- Color cuando el ícono está seleccionado -->
+        <item android:color="@color/PokemonOrange" android:state_checked="true"/>
+        <!-- Color cuando el ícono NO está seleccionado -->
+        <item android:color="@color/PokemonDarkShadowCian" android:state_checked="false"/>
+</selector>

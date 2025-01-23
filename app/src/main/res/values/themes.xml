@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pmdm03" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/PokemonDirtyYellow</item>
+        <item name="colorPrimaryVariant">@color/PokemonOrange</item>
+        <item name="colorOnPrimary">@color/PokemonDarkShadowCian</item>
+
+        <!-- Colores de fondo -->
+        <item name="backgroundColor">@color/DirtyWhite</item>
+        <item name="colorOnBackground">@color/DarkGrey</item>
+
+        <!-- Otros colores -->
+        <item name="colorSecondary">@color/PokemonOrange</item>
+        <item name="colorOnSecondary">@color/PokemonLightYellow</item>
+
+        <!-- Estilo del BottomNavigationView -->
+        <item name="bottomNavigationStyle">@style/CustomBottomNavigationView</item>
+
+        <!-- Configuración personalizada de la SplashScreen-->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/pkchu_con</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/PokemonOrange</item>
+        <item name="android:windowSplashScreenBackground">@color/PokemonOrange</item>
+
+        <!-- Estilo personalizado para el action bar -->
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+
+    </style>
+
+    <style name="Theme.Pmdm03" parent="Base.Theme.Pmdm03" />
+</resources>

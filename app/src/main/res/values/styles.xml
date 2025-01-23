@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo personalizado para BottomNavigationView -->
+    <style name="CustomBottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <!-- Colores para los íconos según su estado -->
+        <item name="itemIconTint">@color/selector_icon_color</item>
+        <!-- Colores para el texto según su estado -->
+        <item name="itemTextColor">@color/selector_text_color</item>
+        <!-- Color de fondo del BottomNavigationView -->
+        <item name="android:background">@color/PokemonDirtyYellow</item>
+    </style>
+
+    <!-- Estilo para la pantalla de Login-->
+    <style name="AuthUI_CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:windowBackground">@color/DirtyWhite</item>
+        <item name="colorPrimary">@color/PokemonDirtyYellow</item>
+        <item name="colorPrimaryVariant">@color/PokemonLightYellow</item>
+        <item name="colorOnPrimary">@color/PokemonDarkShadowCian</item>
+        <!-- Personalización de los botones -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <!-- Estilo para los botones -->
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+
+        <!-- Padding interno del botón -->
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <!-- Bordes redondeados -->
+        <item name="android:radius">50dp</item>
+        <!-- Configuración de fuente -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <!-- Estilo para títulos -->
+    <style name="CustomTitleStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">30dp</item>
+        <item name="android:fontFamily">@font/daydream</item>
+        <item name="android:textColor">@color/PokemonDarkShadowCian</item>
+    </style>
+
+    <!-- Estilo para los textos -->
+    <style name="CustomTextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">15dp</item>
+        <item name="android:fontFamily">@font/pokemonclassic</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <!--Estilo para textos en descripcion -->
+    <style name="CustomTextViewDescriptionStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">17dp</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+        <item name="android:textColor">@color/DarkGrey</item>
+    </style>
+
+    <!-- Estilo para el action bar -->
+    <style name="CustomActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/PokemonDirtyYellow</item>
+        <item name="android:titleTextStyle">@style/CustomTextViewStyle</item>
+    </style>
+</resources>

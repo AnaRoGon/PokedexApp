@@ -54,8 +54,16 @@ ligadas al acceso a los datos desde la nube o desde internet y aprender su funci
 Puedes acceder desde este enlace a un vídeo en el que se muestra el funcionamiento de la aplicación: 
 <https://drive.google.com/file/d/1hwZQG-jVVVQY4DVmXkIID9lnX8o-WsGP/view?usp=drive_link>
 
+# Algunas capturas de la aplicación
 
 
+![00](https://github.com/user-attachments/assets/7a51e34b-2617-4407-a086-f3d219c698eb)
+
+![01](https://github.com/user-attachments/assets/40af5942-722a-4e2c-997f-830c6cce9e72)
+
+![02](https://github.com/user-attachments/assets/ca7dacc3-652c-4e84-a6a8-03bd47b86d52)
+
+![05](https://github.com/user-attachments/assets/31714070-4425-4dfb-a9de-7f49e34a1705)
 
 
 

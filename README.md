@@ -56,14 +56,18 @@ Puedes acceder desde este enlace a un vídeo en el que se muestra el funcionamie
 
 # Algunas capturas de la aplicación
 
+## Pantalla de login 
+![00](https://github.com/user-attachments/assets/2acc63e7-a51b-4c2b-b2dc-1683bb8ad5e5)
 
-![00](https://github.com/user-attachments/assets/7a51e34b-2617-4407-a086-f3d219c698eb)
+## Pantalla de Pokedex
+![01](https://github.com/user-attachments/assets/9af3b2ea-bba1-45f8-a89d-3b16c2f36553)
 
-![01](https://github.com/user-attachments/assets/40af5942-722a-4e2c-997f-830c6cce9e72)
+## Pantalla de lista de Pokémon capturados
+![02](https://github.com/user-attachments/assets/71b68a97-d139-4698-b380-bcd9c3cbdb99)
 
-![02](https://github.com/user-attachments/assets/ca7dacc3-652c-4e84-a6a8-03bd47b86d52)
+## Pantalla de detalles del Pokémon
+![03](https://github.com/user-attachments/assets/2a5dc738-7dd7-4ee0-9a16-4832e3fb9a88)
 
-![05](https://github.com/user-attachments/assets/31714070-4425-4dfb-a9de-7f49e34a1705)
-
-
+## Pantalla de ajustes con diálogo de información del autor
+![05](https://github.com/user-attachments/assets/f32e7e61-9f7e-4eca-a96b-39d634392fe0)
 

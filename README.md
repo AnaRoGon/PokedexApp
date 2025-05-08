@@ -1,5 +1,5 @@
 # Introducción
-Aplicación en la que tendremos una Pokédez desde la que podremos ir capturando Pokémon. 
+Aplicación en la que tendremos una Pokédex desde la que podremos ir capturando Pokémon. 
 
 
 # Características principales

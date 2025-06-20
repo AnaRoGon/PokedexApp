@@ -65,10 +65,3 @@ clase al obtener los datos anidados y evitar que se interbloqueasen.
 
 Ha sido muy interesante conocer las posibilidades de Firebase y Retrofit. Las aplicaciones están estrechamente
 ligadas al acceso a los datos desde la nube o desde internet y aprender su funcionamiento ha sido realmente interesante y motivador.
-
-# Ejemplo de funcionamiento.
-
-Puedes acceder desde este enlace a un vídeo en el que se muestra el funcionamiento de la aplicación: 
-<https://drive.google.com/file/d/1hwZQG-jVVVQY4DVmXkIID9lnX8o-WsGP/view?usp=drive_link>
-
-

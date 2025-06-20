@@ -7,19 +7,32 @@ Aplicación en la que tendremos una Pokédex desde la que podremos ir capturando
 La primera vez que iniciemos la aplicación deberemos de registrarnos para poder acceder a la app. 
 Una vez hayamos iniciado sesión se mantendrá iniciada hasta que decidamos salir. 
 
+![00](https://github.com/user-attachments/assets/2acc63e7-a51b-4c2b-b2dc-1683bb8ad5e5)
+
 ## Pantalla de Pokédex
 Esta aplicación nos permite obtener los datos de los 150 primeros Pokemon de la API de Pokémon y cargarlos en una Pokedex.
-Al seleccionar un Pokémon en la pantalla de Pokédez éste será capturado. 
+Al seleccionar un Pokémon en la pantalla de Pokédez éste será capturado.
+
+![01](https://github.com/user-attachments/assets/9af3b2ea-bba1-45f8-a89d-3b16c2f36553)
 
 ## Pantalla de Pokémon capturados
 Tendremos una pantalla para visualizar todos los Pokémon capturados.
 Al seleccionar un Pokémon de la lista podremos visualizar algunas características del Pokémon, 
 como el nombre, índice en la Pokédex, peso, altura, etc. 
 
+![02](https://github.com/user-attachments/assets/71b68a97-d139-4698-b380-bcd9c3cbdb99)
+
+## Pantalla de detalles
+En esta pantalla podremos revisar las características de cada Pokémon. 
+
+![03](https://github.com/user-attachments/assets/2a5dc738-7dd7-4ee0-9a16-4832e3fb9a88)
+
 ## Pantalla de ajustes
 La aplicación implementa una pantalla desde la que se podrán cambiar algunos ajustes. 
 Tendremos la opción de cambio de idioma, habilitar o deshabilitar la posibilidad de soltar Pokémon capturados,
 un botón de información de la desarrolladora de la aplicación y un botón para cerrar sesión. 
+
+![05](https://github.com/user-attachments/assets/f32e7e61-9f7e-4eca-a96b-39d634392fe0)
 
 # Tecnologías utilizadas. 
 
@@ -54,20 +67,4 @@ ligadas al acceso a los datos desde la nube o desde internet y aprender su funci
 Puedes acceder desde este enlace a un vídeo en el que se muestra el funcionamiento de la aplicación: 
 <https://drive.google.com/file/d/1hwZQG-jVVVQY4DVmXkIID9lnX8o-WsGP/view?usp=drive_link>
 
-# Algunas capturas de la aplicación
-
-## Pantalla de login 
-![00](https://github.com/user-attachments/assets/2acc63e7-a51b-4c2b-b2dc-1683bb8ad5e5)
-
-## Pantalla de Pokedex
-![01](https://github.com/user-attachments/assets/9af3b2ea-bba1-45f8-a89d-3b16c2f36553)
-
-## Pantalla de lista de Pokémon capturados
-![02](https://github.com/user-attachments/assets/71b68a97-d139-4698-b380-bcd9c3cbdb99)
-
-## Pantalla de detalles del Pokémon
-![03](https://github.com/user-attachments/assets/2a5dc738-7dd7-4ee0-9a16-4832e3fb9a88)
-
-## Pantalla de ajustes con diálogo de información del autor
-![05](https://github.com/user-attachments/assets/f32e7e61-9f7e-4eca-a96b-39d634392fe0)
 

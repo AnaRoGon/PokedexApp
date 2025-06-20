@@ -46,7 +46,7 @@ Para el desarrollo de esta aplicación se destaca:
   
 # Instrucciones de uso.
 
-Para ejecutar la app copia el enlace del repositorio en GitHub: <https://github.com/AnaRoGon/pmdm03.git>
+Para ejecutar la app copia el enlace del repositorio en GitHub: <https://github.com/AnaRoGon/PokedexApp.git>
 
 En el IDE de Android Studio selecciona en el menú; 
 File -> New -> Project from Version Control y clica en la opción "Clone": 

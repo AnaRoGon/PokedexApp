@@ -9,6 +9,10 @@ Una vez hayamos iniciado sesión se mantendrá iniciada hasta que decidamos sali
 
 ![00](https://github.com/user-attachments/assets/2acc63e7-a51b-4c2b-b2dc-1683bb8ad5e5)
 
+## ⚠️ ⚠️ Nota importante ⚠️ ⚠️:
+Para habilitar el inicio de sesión con Google en Firebase, es necesario registrar el SHA-1 del certificado en la consola de Firebase. 
+Este valor se obtiene desde el entorno local de desarrollo y no está incluido en este repositorio por seguridad.
+
 ## Pantalla de Pokédex
 Esta aplicación nos permite obtener los datos de los 150 primeros Pokemon de la API de Pokémon y cargarlos en una Pokedex.
 Al seleccionar un Pokémon en la pantalla de Pokédez éste será capturado.

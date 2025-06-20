@@ -1,4 +1,4 @@
-# Introducción
+# Pokédex virtual para Android
 Aplicación en la que tendremos una Pokédex desde la que podremos ir capturando Pokémon. 
 
 
